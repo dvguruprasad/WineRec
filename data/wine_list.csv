@@ -1,0 +1,200 @@
+S. No.,Wine,Vintage,Varietal,Type,Country,Region,User Rating,Body,Price,Sweetness,Morrisons'
+1,Trey Marie Trutina,1999,Red Bordeaux Blend,Red,USA,Washington,87.3,C,21.25,2,N
+2,Quilceda Creek Merlot,2006,Merlot,Red,USA,Washington,92.5,C,11.25,2,N
+3,Reininger Cabernet Sauvignon,2000,Cabernet Sauvignon,Red,USA,Washington,88.4,E,20,2,N
+4,Woodward Canyon Charbonneau,1997,Red Bordeaux Blend,Red,USA,Washington,90.5,C,28.5,2,N
+5,Long Shadows Wineries Saggi,2004,Red Blend,Red,USA,Washington,90.4,D,12.5,2,N
+6,Long Shadows Wineries Syrah Sequel,2003,Shiraz/Syrah,Red,USA,Washington,91.5,D,17.5,2,N
+7,Dominio Pingus Ribera del Duero,1999,Tempranillo/Tinto Fino/Tinta Roriz,Red,Spain,Castilla y León,96,E,24,2,N
+8,Bodega Numanthia Termes Toro Numanthia,2001,Tempranillo/Tinto Fino/Tinta Roriz,Red,Spain,Castilla y León,92,D,21,2,N
+9,Rotllan Torra Priorat Tirant,2003,Grenache/Garnacha Blend,Red,Spain,Catalunya,93.3,E,17,6,N
+10,Alvaro Palacios Priorat L'Ermita,2006,Red Blend,Red,Spain,Catalunya,93,E,12,2,N
+11,Château Haut Mallet,1989,Sémillon-Sauvignon Blanc Blend,White,France,Bordeaux,86,C,12,6,N
+12,Château Haut Mallet,2007,Sémillon-Sauvignon Blanc Blend,White - Sweet/Desert,France,Bordeaux,87,D,19.99,9,N
+13,Château de Malle,2002,Sémillon-Sauvignon Blanc Blend,White - Sweet/Desert,France,Bordeaux,90.8,D,20.5,8,N
+14,Château Haut Mallet,2000,Red Bordeaux Blend,Red,France,Bordeaux,88,C,19,2,N
+15,Château Doisy-Daëne,2009,Sémillon-Sauvignon Blanc Blend,White - Sweet/Desert,France,Bordeaux,91.7,E,12.5,9,N
+16,Michel & Stéphane Ogier Côte-Rôtie,2008,Shiraz/Syrah,Red,France,Rhône,90,E,8,2,N
+17,Domaine du Vieux Télégraphe Châteauneuf-du-Pape Blanc La Crau,2001,White Rhone Blend,White,France,Rhône,91.4,D,23,2,N
+18,Rene Rostaing Côte-Rôtie Côte Blonde,2000,Shiraz/Syrah,Red,France,Rhône,92.2,D,23,2,N
+19,E. Guigal Crozes-Hermitage Blanc,2006,White Rhone Blend,White,France,Rhône,86,C,20,2,N
+20,E. Guigal Crozes-Hermitage,2002,Shiraz/Syrah,Red,France,Rhône,84.6,D,19,2,N
+21,Caves des Papes Châteauneuf-du-Pape Les Closiers,2003,Red Rhone Blend,Red,France,Rhône,89.1,D,16,2,N
+22,Caves des Papes Châteauneuf-du-Pape Les Closiers,2005,White Rhone Blend,White,France,Rhône,85,C,19,2,N
+23,Domaine Jamet Côte-Rôtie,2001,Shiraz/Syrah,Red,France,Rhône,91.8,E,20,2,N
+24,Churchill Porto Late Bottled Vintage,2005,Port Blend,Red - Fortified,Portugal,Douro,85,D,16,5,N
+25,Dow Porto Late Bottled Vintage,2006,Port Blend,Red - Fortified,Portugal,Douro,86.7,D,15,6,N
+26,Zenato Amarone della Valpolicella,2003,Corvina Blend,Red,Italy,Veneto,94,A,16.5,2,N
+27,Zenato Amarone della Valpolicella Classico,1998,Corvina Blend,Red,Italy,Veneto,90.4,A,22,2,N
+28,Tenuta San Guido Bolgheri Sassicaia Sassicaia,2009,Red Bordeaux Blend,Red,Italy,Tuscany,92,C,6.5,2,N
+29,Pio Cesare Barolo,2003,Nebbiolo,Red,Italy,Piedmont,91.2,D,15.25,2,N
+30,Pio Cesare Barolo Ornato,2000,Nebbiolo,Red,Italy,Piedmont,92,D,22.5,2,N
+31,Marchesi Mazzei Castello di Fonterutoli Siepi Toscana IGT,2005,SuperTuscan Blend,Red,Italy,Tuscany,92.5,C,12.5,2,N
+32,Falesco Montiano Lazio IGT,1999,Merlot,Red,Italy,Latium,90.3,C,24.75,2,N
+33,Braida (Giacomo Bologna) Barbera d'Asti Ai Suma,2003,Barbera,Red,Italy,Piedmont,85,C,17,2,N
+34,Isole e Olena Cepparello Toscana IGT,2005,Sangiovese,Red,Italy,Tuscany,90.6,C,11.75,2,N
+35,Poggio Antico Brunello di Montalcino,2006,Sangiovese,Red,Italy,Tuscany,89.8,C,10,2,N
+36,Joh. Jos. Prüm Wehlener Sonnenuhr Riesling Auslese,2001,Riesling,White - Off-dry,Germany,Mosel Saar Ruwer,94.2,A,19.5,6,N
+37,Balthasar Ress Hochheimer Kirchenstück Riesling Spätlese,1986,Riesling,White - Off-dry,Germany,Rheingau,90,A,50,6,N
+38,Adam Müller Riesling Spätlese,2008,Riesling,White - Off-dry,Germany,Pfalz,85,B,45,7,N
+39,Château Beauregard Ducasse Blanc,2006,Sauvignon Blanc,White,France,Bordeaux,88,C,15,2,N
+40,Château Ducasse Blanc,2006,Sémillon-Sauvignon Blanc Blend,White,France,Bordeaux,87.3,C,10,2,N
+41,Zind-Humbrecht Gewurztraminer Hengst,2007,Gewürztraminer,White,France,Alsace,91.5,E,20,5,N
+42,Zind-Humbrecht Pinot Gris Clos Windsbuhl,2006,Pinot Gris,White,France,Alsace,91.3,E,54,6,N
+43,La Bastide Blanche Bandol,2003,Mourvedre Blend,Red,France,Provence,90,B,14.75,2,N
+44,La Bastide Blanche Bandol Blanc,2009,White Rhone Blend,White,France,Provence,91,C,12,2,N
+45,Zind-Humbrecht Pinot Noir Herrenweg de Turckheim,1996,Pinot Noir,Red,France,Alsace,94,C,36,2,N
+46,Canoblas-Smith Alchemy,1999,Cabernet-Shiraz/Syrah Blend,Red,Australia,New South Wales,88,E,21,2,N
+47,Miaudoux Saussignac Reserve,1994,Sémillon,White - Sweet/Desert,France,Southwest France,90,C,55,8,N
+48,René Renou Bonnezeaux Cuvée Zenith,2000,Chenin Blanc,White - Sweet/Desert,France,Loire Valley,89,C,72,8,N
+49,Big Tattoo Wines Riesling 2 Brothers,2006,Riesling,White,Germany,Mosel Saar Ruwer,83,C,12.99,4,N
+50,Big Tattoo Wines Syrah 2 Brothers,2005,Shiraz/Syrah,Red,Chile,Central Valley,84.5,D,14,2,N
+51,Big Tattoo Wines 2 Brothers Big Tattoo Red Colchagua Valley,2003,Cabernet-Shiraz/Syrah Blend,Red,Chile,Central Valley,79,E,15.5,2,N
+52,Moët & Chandon Champagne Cuvée Dom Pérignon,2006,Champagne Blend,White - Sparkling,France,Champagne,92,C,80,2,N
+53,Bollinger Champagne La Grande Année,2002,Champagne Blend,White - Sparkling,France,Champagne,92.7,D,65,2,N
+54,Bollinger Champagne Rosé Brut,1999,Champagne Blend,Rose - Sparkling,France,Champagne,89,B,35,2,N
+55,Perrier-Jouët Champagne Cuvée Fleur de Champagne Rosé,2002,Champagne Blend,Rose - Sparkling,France,Champagne,91.4,B,25,2,N
+56,Perrier-Jouët Champagne Cuvée Fleur de Champagne,2002,Champagne Blend,White - Sparkling,France,Champagne,91.2,B,70,2,N
+57,Henri Boillot Corton-Charlemagne,2008,Chardonnay,White,France,Burgundy,92,D,10,2,N
+58,Domaine Leflaive Chevalier-Montrachet,2005,Chardonnay,White,France,Burgundy,94.8,C,12,2,N
+59,Remoissenet Père et Fils Givry,2009,Chardonnay,White,France,Burgundy,81,C,9,2,N
+60,"Remoissenet Père et Fils Givry ""Le Préféré du Roi Henri IV""",2010,Pinot Gris,White,France,Burgundy,88,E,51,7,N
+61,"Remoissenet Père et Fils Givry ""Le Préféré du Roi Henri IV""",2006,Pinot Noir,Red,France,Burgundy,85,B,12.5,2,N
+62,Domaine Dujac Echezeaux,2007,Pinot Noir,Red,France,Burgundy,90.3,B,9,2,N
+63,Baron Philippe de Rothschild Graves Mouton Cadet Réserve,2010,Red Bordeaux Blend,Red,France,Bordeaux,83.5,C,6,2,N
+64,Baron Philippe de Rothschild le Rosé de Mouton Cadet,2006,Rose Blend,Rose,France,Bordeaux,79,B,4,2,N
+65,Baron Philippe de Rothschild Mouton Cadet Blanc,2010,Sémillon-Sauvignon Blanc Blend,White,France,Bordeaux,84.5,E,9,2,N
+66,Bodega Catena Zapata Bonarda Alamos,2010,Bonarda,Red,Argentina,Mendoza,85,D,5.5,2,N
+67,Bodega Catena Zapata Alamos Vintner's Blend,2007,Malbec Blend,Red,Argentina,Mendoza,90,D,8.75,2,N
+68,Bodega Catena Zapata Alamos,2007,Chardonnay Blend,White - Sparkling,Argentina,Mendoza,86,C,13,2,N
+69,Bodegas Monteviejo Lindaflor Petite Fleur,2009,Red Blend,Red,Argentina,Mendoza,89.5,D,7,2,N
+70,Bodegas Monteviejo Festivo Rose,2008,Rose Blend,Rose,Argentina,Mendoza,84.7,B,6,2,N
+71,Bodegas Monteviejo Chardonnay Lindaflor,2008,Chardonnay,White,Argentina,Mendoza,91,D,23,2,N
+72,Bodega Monteviejo Monteviejo,2006,Malbec Blend,Red,Argentina,Mendoza,90,D,13,2,N
+73,Martin Schaetzel Gewurztraminer Cuvée Isabelle,2004,Gewürztraminer,White,France,Alsace,88,D,22,5,N
+74,Rolf Binder/Veritas Halliwell,2007,Shiraz/Syrah-Grenache/Garnacha Blend,Red,Australia,South Australia,89.2,C,9,2,N
+75,Rolf Binder Halliwell,2004,Red Blend,Red,Australia,South Australia,91,E,14,2,N
+76,Burge Family Garnacha Barossa Valley,2006,Grenache/Garnacha,Red,Australia,South Australia,88,D,12,6,N
+77,Abacela Muscat,2006,Muscat,White,USA,Oregon,84,C,12,7,N
+78,Massandra White Port Alupka,1940,White Blend,White - Fortified,Ukraine,Crimea,82,E,70,9,N
+79,Aaldering Pinotage Aaldering Vineyards,2007,Pinotage,Red,South Africa,Coastal Region,96,A,10,2,N
+80,3000 BC Chenin Blanc,2009,Chenin Blanc,White,South Africa,Coastal Region,87,C,9.99,2,N
+81,Aaldering Chardonnay Chardonnay Viognier Aaldering Vineyards,2011,Chardonnay,White,South Africa,Coastal Region,83,C,21,2,N
+82,Aaldering Cabernet Sauvignon Merlot Aaldering Vineyards,2007,Red Bordeaux Blend,Red,South Africa,Coastal Region,93.8,C,9.25,2,N
+83,Cloudy Bay Pelorus Rose,2009,Champagne Blend,Rose - Sparkling,New Zealand,South Island,82.8,C,18,2,N
+84,Pernod Ricard Bluff Hill,2010,Champagne Blend,Rose - Sparkling,New Zealand,South Island,81,C,14,2,N
+85,Cloudy Bay Chardonnay,2010,Chardonnay,White,New Zealand,South Island,88.5,C,20,2,N
+86,Cloudy Bay Gewürztraminer,2007,Gewürztraminer ,White,New Zealand,South Island,87.8,E,18,5,N
+87,Cloudy Bay Gewürztraminer Late Harvest,2008,Gewürztraminer ,White - Sweet/Desert,New Zealand,South Island,87,D,19.95,8,N
+88,Azienda Agricola Belvedere (Luigi Zanini) Castello Luigi,2001,Chardonnay Blend,White,Switzerland,Ticino,94,C,30,2,N
+89,Azienda Agricola Belvedere (Luigi Zanini) Rosso Ticinese Castello Luigi,2005,Merlot Blend,Red,Switzerland,Ticino,91.7,C,13.5,2,N
+90,Schloss Gobelsburg Grüner Veltliner Ried Lamm,2007,Grüner Veltliner,White,Austria,Niederösterreich,83,D,39.8,2,N
+91,Abfüller Gerald Tschida Zweigelt Fuchsloch,2007,Zweigelt,Red,Austria,Burgenland,88,E,10.25,2,N
+92,Paul Achs Blaufränkisch Altenberg,2009,Blaufränkisch,Red,Austria,Burgenland,85,B,10,2,N
+93,Avondale Grahamn Reserve,2003,Pinotage Blend,Red,South Africa,Coastal Region,91,E,15,2,N
+94,Cossart Gordon & Co. Madeira Sercial,1905,Sercial,White - Fortified,Portugal,Madeira,84,C,275,2,N
+95,2 Lads Cabernet Franc,2008,Cabernet Franc,Red,USA,Michigan,83.5,C,7.5,2,N
+96,2 Lads Cabernet Franc Rose,2007,Cabernet Franc,Rose,USA,Michigan,93,A,7,2,N
+97,A.A. Calem & Filho S.A. Douro Trium,2002,Tempranillo/Tinto Fino/Tinta Roriz,Red,Portugal,Douro,84,C,18.5,2,N
+98,Aliança Vinho Regional Beiras Vista TR,2005,Tempranillo/Tinto Fino/Tinta Roriz,Red,Portugal,Beiras,78,C,13,2,N
+99,Agro Batoreu Ribatejo Terra Silvestre,2008,Touriga National/Franca Blend,Red,Portugal,Ribatejano,87.7,B,8,2,N
+100,Barão de Vilar Dão,2010,Touriga National/Franca Blend,Red,Portugal,Beiras,82,B,6.25,2,N
+101,Carlisle Alicante Bouschet,2004,Alicante Bouschet,Red,USA,California,86.3,D,14.5,2,N
+102,Bray Vineyards Alicante Bouschet,2006,Alicante Bouschet,Red,USA,California,93,D,11,2,N
+103,Concha y Toro Syrah Gran Reserva Serie Riberas San Javier,2010,Shiraz/Syrah,Red,Chile,Central Valley,87,E,5,2,Y
+104,Montes Cabernet Sauvignon Alpha Apalta Vineyard,2009,Cabernet Sauvignon,Red,Chile,Central Valley,88.4,E,7.25,2,Y
+105,Cadis Amarone della Valpolicella Cadís,2009,Corvina Blend,Red,Italy,Veneto,87,E,6.25,2,Y
+106,A. Ogier & Fils Châteauneuf-du-Pape La Lauvigniere,2009,Grenache/Garnacha Blend,Red,France,Rhone,86,E,5.75,5,Y
+107,Bellingham Cabernet Sauvignon,2007,Cabernet Sauvignon,Red,South Africa,Coastal Region,80,E,9,2,Y
+108,Buckingham Estate Shiraz Reserve,2006,Shiraz/Syrah,Red,Australia,Western Australia,85,E,10.5,2,Y
+109,Victoria Ridgeview Rose,2009,Champagne Blend,Rose - Sparkling,UK,England,90,C,26.95,2,N
+110,"Nyetimber Rose, England",2007,Champagne Blend,Rose - Sparkling,UK,England,93,C,45,2,N
+111,"Berrys' United Kingdom Cuvee, Rose, Grand Cru, Champagne Marguet",NV,Champagne Blend,Rose - Sparkling,France,Champagne,89,C,29.95,2,N
+112,"Rose, Grand Cru, Champagne Mailly",NV,Pinot Noir,Rose - Sparkling,France,Champagne,90,C,34.95,2,N
+113,"Champagne de Sousa, Brut Rose, Grand Cru",NV,Champagne Blend,Rose - Sparkling,France,Champagne,90,D,36.95,2,N
+114,"Champagne R&L Legras, Rose",NV,Champagne Blend,Rose - Sparkling,France,Champagne,92,D,39.95,2,N
+115,Bollinger Rose Non Vintage,NV,Champagne Blend,Rose - Sparkling,France,Champagne,94,D,52.2,2,N
+116,Dom Ruinart Rose,1996,Pinot Noir,Rose - Sparkling,France,Champagne,96,D,230,2,N
+117,Ch. Plantey Canteloup Rose Bordeaux,2011,Merlot,Rose,France,Bordeaux,85,B,6.95,2,N
+118,"Rose de Giscours, Ch. Giscours, Bordeaux",2011,Cabernet Sauvignon Blend,Rose,France,Bordeaux,92,D,24,2,N
+119,"Bourgogne Rosé, Camille Giroud",2010,Pinot Noir,Rose,France,Burgundy,89,C,13.5,2,N
+120,"La Rosa Reserve, Quinta de la Rosa, Douro",2008,Port Blend,Red - Fortified,Portugal,Douro,90,E,26.5,2,N
+121,"La Rosa Reserve, Quinta de la Rosa, Douro",2009,Port Blend,Red - Fortified,Portugal,Douro,91,E,32,2,N
+122,Quarles Harris,1997,Port Blend,Red - Fortified,Portugal,Douro,92,E,35,8,N
+123,"Gran Reserva 890, La Rioja Alta",1982,Tempranillo/Tinto Fino/Tinta Roriz,Red - Fortified,Spain,La Rioja,97,D,225,2,N
+124,Quinta do Vesuvio DOC,2008,Touriga Nacional,Red - Fortified,Portugal,Douro,93,E,60,2,N
+125,Graham's Quinta dos Malvedos,1979,Port Blend,Red - Fortified,Portugal,Douro,92,E,150,6,N
+126,"Camel Valley, Pinot Noir Brut Sparkling",2006,Pinot Noir,White - Sparkling,UK,England,90,C,29.95,2,N
+127,"Antech Brut Nature, Blanquette de Limoux",NV,Mauzac,White - Sparkling,France,Languedoc-Roussillon,85,C,11.95,2,N
+128,"Prosecco Asolo Extra Dry, Bele Casel, Veneto",NV,Prosecco,White - Sparkling,Italy,Veneto,86,B,12.95,3,N
+129,"Prosecco Asolo 'Millesimato', Bele Casel, Veneto",2010,Prosecco,White - Sparkling,Italy,Veneto,88,B,16.95,5,N
+130,"Gramona, Brut Nature, Gran Reserva",2006,Cava Blend,White - Sparkling,Spain,Cava,88.5,C,17.95,2,N
+131,Nyetimber Premiere Cuvee Blanc de Blancs,2001,Chardonnay,White - Sparkling,UK,England,90.5,D,35.95,2,N
+132,"Vouvray Petillant, Cuvee Brut, Domaine Gaston Huet",2005,Chenin Blanc,White - Sparkling,France,Loire,89,E,24.5,2,N
+133,"Grosvenor Blanc de Blancs, Ridgeview Estate",2008,Champagne Blend,White - Sparkling,UK,England,89.5,C,26.95,2,N
+134,"Knightsbridge, Ridgeview Estate",2009,Champagne Blend,White - Sparkling,UK,England,89.3,C,26.95,2,N
+135,"Pol Roger, Rich Demi Sec",NV,Champagne Blend,White - Sparkling,France,Champagne,91,C,39.95,5,N
+136,"Champagne Vilmart, Grand Cellier d'Or",2006,Champagne Blend,White - Sparkling,France,Champagne,92,E,60,2,N
+137,"Champagne Vilmart, Grand Cellier",NV,Champagne Blend,White - Sparkling,France,Champagne,90,E,38.95,2,N
+138,"Gaston Chiquet, Brut Tradition",NV,Champagne Blend,White - Sparkling,France,Champagne,88,B,25.95,2,N
+139,Mailly Grand Cru Extra Brut,NV,Champagne Blend,White - Sparkling,France,Champagne,88.3,C,29.95,2,N
+140,"Bonnaire Blanc de Blancs, Grand Cru",NV,Chardonnay,White - Sparkling,France,Champagne,87.6,D,28.95,2,N
+141,"Champagne Lahaye, Cuvée Prestige Blanc de Noirs",NV,Pinot Noir,White - Sparkling,France,Champagne,88,D,32.95,2,N
+142,"Le Mesnil, Blanc de Blancs, Grand Cru",2002,Chardonnay,White - Sparkling,France,Champagne,91,C,42,2,N
+143,"Wehlener Sonnenuhr Riesling Spatlese Selbach-Oster, Mosel",2007,Riesling,White - Off-dry,Germany,Mosel,86,C,20.75,6,N
+144,"Schlossbockelheimer Felsenberg Riesling Trocken, Donnhoff",2009,Riesling,White - Off-dry,Germany,Nahe,89.3,D,48.5,7,N
+145,"Finca Flichman, Caballero de la Cepa Chardonnay, Mendoza",2009,Chardonnay,White,Argentina,Mendoza,84,D,9.95,2,N
+146,"Kumeu River Village Chardonnay, Auckland, New Zealand",2009,Chardonnay,White,New Zealand,Auckland,86,B,12.95,2,N
+147,"Signatures of Doolhof, Chardonnay, Doolhof Estate, Wellington, SA",2009,Chardonnay,White,South Africa,Cape Valley,85.5,D,12.5,2,N
+148,"Berrys' White Burgundy, Jean-Luc Terrier & Ch. Collovray",2011,Chardonnay,White,France,Burgundy,84.5,B,10.95,2,N
+149,"Chablis, Samuel Billaud",2010,Chardonnay,White,France,Burgundy,87,E,14.95,2,N
+150,"Gewurztraminer Gesetz, Domaine Lucas & André Rieffel",2010,Gewürztraminer ,White,France,Alsace,85,B,15.95,4,N
+151,"Anthonij Rupert, Protea Chenin Blanc, South Africa",2010,Chenin Blanc,White,South Africa,Swartland,74,C,8.8,2,N
+152,"Grüner Veltliner, Leicht und Trocken, Willi Bründlmayer, Austria",2011,Grüner Veltliner,White,Austria,Kamptal,84,A,14.95,2,N
+153,"Klein Constantia, Vin de Constance, Constantia, South Africa",2006,Muscat,White,South Africa,Cape Valley,82,D,11,8,N
+154,"Pinot Gris A360P, Domaine André Ostertag",2009,Pinot Gris,White,France,Alsace,85,C,40,2,N
+155,"Zeltinger Himmelreich Riesling Kabinett Halbtrocken, Selbach-Oster",2010,Riesling,White,Germany,Mosel,86,A,14.95,3,N
+156,"Ostler Blue House Riesling, Waitaki River, Otago (Stelvin)",2009,Riesling,White,New Zealand,Waitaki Valley,87,C,16.95,2,N
+157,"Ch. La Garde, (Blanc) Pessac-Léognan",2010,Sauvignon Blanc,White,France,Bordeaux,88,C,23.5,2,N
+158,"Berrys' Chilean Sauvignon Blanc Viña Quintay, Casablanca Valley",2011,Sauvignon Blanc,White,Chile,Casablanca Valley,84,B,7.95,2,N
+159,"Ch. Doisy-Védrines, Barsac",2011,Sémillon-Sauvignon Blanc Blend,White,France,Bordeaux,88,E,17,8,N
+160,"Le 'G' de Chateau Guiraud, Bordeaux",2010,Sémillon-Sauvignon Blanc Blend,White,France,Bordeaux,86,D,13.25,2,N
+161,"Sercial, 10 yr old, Vinhos Barbeito",NV,Sercial,White - Fortified,Portugal,Madeira,81,E,29.95,2,N
+162,Sercial Frasqueira,1988,Sercial,White - Fortified,Portugal,Madeira,83,B,65,2,N
+163,Berrys' Fino Jerez,NV,Palomino Fino,White - Fortified,Spain,Andalusia,81,B,9.75,2,N
+164,"East India Solera, Emilio Lustau",NV,Palomino Fino,White - Fortified,Spain,Andalusia,84,E,16.65,9,N
+165,"Emilín Moscatel, Solera Reserva, Emilio Lustau",NV,Muscat,White - Fortified,Spain,Andalusia,86,D,18.35,9,N
+166,"Pedro Ximénez, San Emilio, Solera Reserva, Emilio Lustau",NV,Pedro Ximénez,White - Fortified,Spain,Andalusia,86.5,C,20.4,9,N
+167,"Ch. Coutet, Barsac",1998,Sémillon-Sauvignon Blanc Blend,White - Sweet/Desert,France,Bordeaux,89,D,19.75,9,N
+168,"Elderton, Botrytis Semillon Stelvin",2008,Sémillon,White - Sweet/Desert,Australia,South Australia,85,C,11.75,9,N
+169,"Quarts de Chaume, Domaine des Forges",2009,Chenin Blanc,White - Sweet/Desert,France,Loire Valley,86,E,34.5,9,N
+170,"Gewurztraminer Clos Windsbuhl, Domaine Zind Humbrecht",2009,Gewürztraminer ,White - Sweet/Desert,France,Alsace,91,E,38.95,8,N
+171,"Barbera d'Alba, Cascina Fontana, Piedmont",2009,Barbera,Red,Italy,Piedmont,84,D,16.5,2,N
+172,"Blaufränkisch, Burgenland, Moric",2009,Blaufränkisch,Red,Austria,Burgenland,89,D,19.95,2,N
+173,"Cabernet Franc, Oldenburg Vineyards Stellenbosch, South Africa",2009,Cabernet Franc,Red,South Africa,Stellenbosch,87,D,22.75,2,N
+174,"Solaia, Marchesi Piero Antinori",2008,Cabernet Sauvignon,Red,Italy,Tuscany,92,D,188,2,N
+175,"Tapanappa Wines, Wrattonbully Cabernet Shiraz, South Australia",2007,Cabernet-Shiraz/Syrah Blend,Red,Australia,South Australia,90,C,31,2,N
+176,"Valpolicella Classico Superiore, 'I Cantoni', Novaia, Marano, Veneto",2007,Corvina Blend,Red,Italy,Veneto,89,D,17.95,2,N
+177,"Banyuls, Cuvée Joseph Géraud, Domaine Piétri-Géraud",2003,Grenache/Garnacha,Red,France,Languedoc-Roussillon,94,E,21.45,6,N
+178,"Clos La Coutale, Cahors",2009,Malbec,Red,France,South West France,88,D,8.95,2,N
+179,"Finca Flichman, Caballero de la Cepa Malbec, Mendoza",2011,Malbec,Red,Argentina,Mendoza,89,D,9.95,2,N
+180,"Domaine Belot, Merlot, Vin de Pays d'Oc",2010,Merlot,Red,France,Vin de Pays,88,C,7.95,2,N
+181,"Ch. Moulin St. Georges, St Emilion",2008,Merlot Blend,Red,France,Bordeaux,92,D,35,2,N
+182,"Laderas de El Seque, Artadi, Alicante",2010,Mourvedre,Red,Spain,Alicante,87,D,9.95,2,N
+183,"Langhe Nebbiolo, Coste, Ferdinando Principiano",2010,Nebbiolo,Red,Italy,Piedmont,86,D,16.75,2,N
+184,"Vista Hermosa, Pinot Noir, Casablanca Valley",2010,Pinot Noir,Red,Chile,Casablanca Valley,84,B,10.45,2,N
+185,"Toolangi Vineyards, Estate Pinot Noir, Victoria, Australia",2006,Pinot Noir,Red,Australia,Victoria,91,C,23.95,2,N
+188,"Signatures of Doolhof, Pinotage Doolhof Estate, Wellington, SA",2008,Pinotage,Red,South Africa,Cape Valley,92,D,14.5,2,N
+187,"Vendimia, Rioja, Palacios Remondo",2011,Tempranillo/Tinto Fino/Tinta Roriz,Red,Spain,Rioja,85,C,11.25,2,N
+188,"Berrys' Chianti, Badia a Coltibuono, Tuscany",2010,Sangiovese,Red,Italy,Tuscany,90,B,10.95,2,N
+189,"Jordan Estate, Bradgate Syrah, Stellenbosch, South Africa",20100,Shiraz/Syrah,Red,South Africa,Stellenbosch,84,C,9.95,2,N
+190,"Tapanappa Wines, Wrattonbully Cabernet Shiraz, South Australia",2007,Shiraz/Syrah-Cabernet Sauvignon Blend,Red,Australia,South Australia,92,C,31,2,N
+191,"Passagem Reserva Red, Quinta das Bandeiras, Douro Superior",2007,Touriga National/Franca,Red,Portugal,Douro,90,E,19.95,2,N
+192,"Ch. Moulin Riche, St Julien",2011,Cabernet Sauvignon Blend,Red,France,Bordeaux,83,D,7,2,N
+193,"Carignan, Vin De Pays du Mont Baudille, Domaine Familongue",2009,Red Rhone Blend,Red,France,Vin de Pays,86,C,8.95,2,N
+194,"Beaujolais Villages, Le Tracot, Domaine Dubost",2010,Gamay,Red,France,Beaujolais,86.5,C,10.5,2,N
+195,"Juliénas, Les Paquelets, Vieilles Vignes, Domaine Eve & Michel Rey",2007,Gamay,Red,France,Burgundy,89,D,14.5,2,N
+196,"2/3 Trio Infernal Combier-Fischer-Gerin, Priorat",2006,Carignan,Red,Spain,Catalunya,91,D,65,2,N
+197,"Mas Conscience, Le Cas, Vin De Pays de l'Herault",2008,Carignan,Red,France,Vin de Pays,88,D,13.25,2,N
+198,"Aglianico del Vulture, Serra del Prete, Basilicata, Carmelitano",2009,Aglianico,Red,Italy,Basilicata,88.5,D,15.95,2,N
+199,"Taurasi 'Poliphemo', Luigi Tecce, Paternopoli, Campania",2007,Aglianico,Red,Italy,Campania,89,E,32.95,2,N
