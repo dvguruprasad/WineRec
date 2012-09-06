@@ -1,4 +1,4 @@
-class Similarity < ActiveRecord::Base
+class Similarity
   WINE_TYPE_WEIGHT = 40
   BODY_WEIGHT = 30
   VINTAGE_WEIGHT = 20

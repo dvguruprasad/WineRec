@@ -33,6 +33,15 @@ class String
     result.collect {|r| r.strip}
   end
 end
+Wine.destroy_all
+WineTypeSimilarityScore.destroy_all
+Rating.destroy_all
+User.destroy_all
 
 WinePopulator.new(File.dirname(__FILE__) + '/../data/wine_list.csv').populate
 WineTypeSimilarityScoresPopulator.new(File.dirname(__FILE__) + '/../data/wine_type_similarity_scores.csv').populate
+user = User.create(:name => "Chuck", :email => "chuck@norris.com")
+wine_1 = Wine.find(:first, :conditions => ["wine_type = ?", "Red"])
+wine_2 = Wine.find(:first, :conditions => ["wine_type = ?", "White"])
+Rating.create(:user_id => user.id, :wine_id => wine_1.id, :value => 4)
+Rating.create(:user_id => user.id, :wine_id => wine_2.id, :value => 3)

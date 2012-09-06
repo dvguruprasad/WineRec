@@ -16,32 +16,32 @@ ActiveRecord::Schema.define(:version => 20120629101328) do
   create_table "ratings", :force => true do |t|
     t.integer  "user_id"
     t.integer  "wine_id"
-    t.float    "rating"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.float    "value"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "similarity_scores", :force => true do |t|
     t.integer  "wine_1"
     t.integer  "wine_2"
     t.float    "similarity_score"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "wine_type_similarity_scores", :force => true do |t|
     t.string   "wine_type_1"
     t.string   "wine_type_2"
     t.float    "similarity_score"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "wines", :force => true do |t|
@@ -55,8 +55,8 @@ ActiveRecord::Schema.define(:version => 20120629101328) do
     t.integer  "body"
     t.integer  "sweetness"
     t.float    "price"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

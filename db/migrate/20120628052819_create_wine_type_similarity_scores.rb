@@ -1,4 +1,4 @@
-class CreateWineTypeSimilarityScoresTable < ActiveRecord::Migration
+class CreateWineTypeSimilarityScores < ActiveRecord::Migration
   def change
     create_table(:wine_type_similarity_scores) do |t|
       t.string :wine_type_1

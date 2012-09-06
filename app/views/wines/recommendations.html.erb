@@ -7,7 +7,7 @@
   </head>  
   <body>
     <h3>Wine Recommendations Demo</h3>
-
+    Wine Recommendations for user <b><i><%= @user.name %> </i></b>who has rated following wines:
     <table class="table table-striped">  
       <thead>  
         <tr>  
@@ -17,22 +17,25 @@
           <th>Body</th>  
           <th>Vintage</th>  
           <th>Varietal</th>  
+          <th>Rating</th>  
         </tr>  
       </thead>  
       <tbody>  
-        <tr>  
-          <td><%= @wine.name %></td>  
-          <td><%= @wine.sweetness %></td>  
-          <td><%= @wine.wine_type %></td>  
-          <td><%= @wine.body %></td>  
-          <td><%= @wine.vintage %></td>  
-          <td><%= @wine.varietal %></td>  
-        </tr>  
+        <% @wines_with_ratings.each do |wine, rating| %>
+          <tr>  
+            <td><%= wine.name %></td>  
+            <td><%= wine.sweetness %></td>  
+            <td><%= wine.wine_type %></td>  
+            <td><%= wine.body %></td>  
+            <td><%= wine.vintage %></td>  
+            <td><%= wine.varietal %></td>  
+            <td><%= rating %></td>  
+          </tr>  
+        <% end%>
       </tbody>
     </table>
 
     <h4>Recommendations:</h4>
-
     <table class="table table-striped">  
       <thead>  
         <tr>  
