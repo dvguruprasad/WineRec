@@ -6,6 +6,49 @@
     <link href="/twitter-bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet">   
   </head>  
   <body>
+
+        <div class="container">
+			<div class="results">
+	            <h3>Recomendations</h3>
+				<ul class="ul-horizontal unstyled">
+                                  <% @recommendations.each do |wine, similarity_score| %>
+					<li class="row-fluid">
+						 <div class="span1">
+                                                        <%= image_tag("red-wine.jpg")%>
+						 </div>
+						<div class="span11">
+                                                  <h4><%= wine.name %></h4>
+						<p class="winebody-info"> This is a <em><%= @body_scales[wine.body] %></em> wine</p>
+						<dl class="attributes">				
+							<dt>Country:</dt>
+                                                        <dd><%= wine.country %></dd>
+							<dt>Region:</dt>
+                                                        <dd><%= wine.region %></dd>
+							<dt>Vintage:</dt>
+                                                        <dd><%= wine.vintage %></dd>
+							<dt>Varietal:</dt>
+                                                        <dd><%= wine.varietal %></dd>
+							<dt>Price:</dt>
+                                                        <dd>&pound;<%= wine.price %></dd>
+						</dl>
+					</div>
+					</li>
+                                  <% end %>
+				</ul>
+			</div>
+			
+			<div class="clearfix"><a class="btn btn-primary btn-large pull-right " href="index.html">Choose another wine to rate </a></div>
+			
+			
+            <hr>
+			
+            <footer>
+                <p>&copy; Company 2012</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+
     <h3>Wine Recommendations Demo</h3>
     Wine Recommendations for user <b><i><%= @user.name %> </i></b>who has rated following wines:
     <table class="table table-striped">  
