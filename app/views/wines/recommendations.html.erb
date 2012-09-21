@@ -1,15 +1,7 @@
-<!DOCTYPE html>   
-<html lang="en">   
-  <head>   
-    <meta charset="utf-8">   
-    <title>Recommendations</title>   
-    <link href="/twitter-bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet">   
-  </head>  
-  <body>
-
         <div class="container">
 			<div class="results">
-	            <h3>Recomendations</h3>
+                          </br>
+                          <h3>Recomendations</h3>
 				<ul class="ul-horizontal unstyled">
                                   <% @recommendations.each do |wine, similarity_score| %>
 					<li class="row-fluid">
@@ -18,7 +10,7 @@
 						 </div>
 						<div class="span11">
                                                   <h4><%= wine.name %></h4>
-						<p class="winebody-info"> This is a <em><%= @body_scales[wine.body] %></em> wine</p>
+						<p class="winebody-info"><em><%= @body_scales[wine.body] %></em></p>
 						<dl class="attributes">				
 							<dt>Country:</dt>
                                                         <dd><%= wine.country %></dd>
@@ -49,61 +41,3 @@
         </div> <!-- /container -->
 
 
-    <h3>Wine Recommendations Demo</h3>
-    Wine Recommendations for user <b><i><%= @user.name %> </i></b>who has rated following wines:
-    <table class="table table-striped">  
-      <thead>  
-        <tr>  
-          <th>Name</th>  
-          <th>Sweetness</th>  
-          <th>Type</th>  
-          <th>Body</th>  
-          <th>Vintage</th>  
-          <th>Varietal</th>  
-          <th>Rating</th>  
-        </tr>  
-      </thead>  
-      <tbody>  
-        <% @wines_with_ratings.each do |wine, rating| %>
-          <tr>  
-            <td><%= wine.name %></td>  
-            <td><%= wine.sweetness %></td>  
-            <td><%= wine.wine_type %></td>  
-            <td><%= wine.body %></td>  
-            <td><%= wine.vintage %></td>  
-            <td><%= wine.varietal %></td>  
-            <td><%= rating %></td>  
-          </tr>  
-        <% end%>
-      </tbody>
-    </table>
-
-    <h4>Recommendations:</h4>
-    <table class="table table-striped">  
-      <thead>  
-        <tr>  
-          <th>Name</th>  
-          <th>Sweetness</th>  
-          <th>Type</th>  
-          <th>Body</th>  
-          <th>Vintage</th>  
-          <th>Varietal</th>  
-          <th>Similarity Score</th>  
-        </tr>  
-      </thead>  
-      <tbody>  
-        <% @recommendations.each do |wine, similarity_score| %>
-          <tr>  
-            <td><%= wine.name %></td>  
-            <td><%= wine.sweetness %></td>  
-            <td><%= wine.wine_type %></td>  
-            <td><%= wine.body %></td>  
-            <td><%= wine.vintage %></td>  
-            <td><%= wine.varietal %></td>  
-            <td><%= similarity_score %></td>  
-          </tr>  
-        <% end %>
-      </tbody>
-    </table>
-  </body>
-</html>
