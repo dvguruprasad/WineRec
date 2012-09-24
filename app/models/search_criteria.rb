@@ -1,0 +1,3 @@
+class SearchCriteria
+
+end

@@ -9,163 +9,104 @@
     $('#body_scales').addClass('hidden')
   }
 </script>
-        <div class="container">
+<div class="container">
 
-   
-			<div class="hero-unit">
-                <h4>Choose your wine</h4>
-                <h5>Choose color</h5>
-				<ul class="color-choice ul-horizontal unstyled">
-					<li>
-						<label class="radio">
-                                                  <%= radio_button("search_criteria", "color", "red", :checked => true, :onclick => "switch_to_body()") %>
-						    Red 
-						</label>
-					</li>
-					<li>
-						<label class="radio">
-                                                  <%= radio_button("search_criteria", "color", "rose", :onclick => "switch_to_sweetness()") %>
-						    Rose 
-						</label>
-					</li>
-					<li>
-						<label class="radio">
-                                                  <%= radio_button("search_criteria", "color", "white", :onclick => "switch_to_sweetness()") %>
-						    White 
-						</label>
-					</li>
-				</ul>
-				<h5>How do you like your wine?</h5>
-				<ul class="body-choice ul-horizontal unstyled" id="body_scales">
-                                  <% @body_scales.each do |key, value|%>
-					<li>
-						<label class="radio">
-                                                  <%= check_box("search_criteria", "body_#{key}")%> 
-                                                  <%= value %>
-						</label>
-					</li>
-                                  <% end %>
-				
-				</ul>	
-				<ul class="body-choice ul-horizontal unstyled hidden" id="sweetness_scales">
-                                  <% @sweetness_scales.each do |key, value|%>
-					<li>
-						<label class="radio">
-                                                  <%= check_box("search_criteria", "sweetness_#{key}")%> 
-                                                  <%= value %>
-						</label>
-					</li>
-                                  <% end %>
-				
-				</ul>	
-                <p class="clearfix"><a class="btn btn-primary btn-large pull-right">See wine suggestions &raquo;</a></p>
-            </div>
-			
-			<div class="results">
-			    <p class="text-info">If you have already tasted the wines from the list below, kindly rate the wine so that we can show you the recommendations...</p>
-				<ul class="ul-horizontal unstyled">
-					<li class="row-fluid">
-						 <div class="span1">
-                                                       <%= image_tag("red-wine.jpg") %>
-						 </div>
-						<div class="span11">
-							<h4>Trey Marie Trutina</h4>
-							<p class="winebody-info"> This is a <em>Medium body</em> wine</p>
-							<dl class="attributes">				
-								<dt>Country:</dt>
-								<dd>USA</dd>
-								<dt>Region:</dt>
-								<dd>Washington</dd>
-								<dt>Vintage:</dt>
-								<dd>1999</dd>
-								<dt>Varietal:</dt>
-								<dd>Red Bordeaux Blend</dd>
-								<dt>Price:</dt>
-								<dd>&pound;21.25</dd>
-							</dl>
-							
-							<div class="rating">
-								<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
-							</div>
-						</div>
-					</li>
-					<li class="row-fluid">
-						 <div class="span1">
-                                                      <%= image_tag("red-wine.jpg") %>
-						 </div>
-						<div class="span11">
-							<h4>Trey Marie Trutina</h4>
-							<p class="winebody-info"> This is a <em>Medium body</em> wine</p>
-							<dl class="attributes">				
-								<dt>Country:</dt>
-								<dd>USA</dd>
-								<dt>Region:</dt>
-								<dd>Washington</dd>
-								<dt>Vintage:</dt>
-								<dd>1999</dd>
-								<dt>Varietal:</dt>
-								<dd>Red Bordeaux Blend</dd>
-								<dt>Price:</dt>
-								<dd>&pound;21.25</dd>
-							</dl>
-							
-							<div class="rating">
-								<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
-							</div>
-						</div>
-					</li>
-					<li class="row-fluid">
-						 <div class="span1">
-                                                      <%= image_tag("red-wine.jpg") %>
-						 </div>
-						<div class="span11">
-							<h4>Trey Marie Trutina</h4>
-							<p class="winebody-info"> This is a <em>Medium body</em> wine</p>
-							<dl class="attributes">				
-								<dt>Country:</dt>
-								<dd>USA</dd>
-								<dt>Region:</dt>
-								<dd>Washington</dd>
-								<dt>Vintage:</dt>
-								<dd>1999</dd>
-								<dt>Varietal:</dt>
-								<dd>Red Bordeaux Blend</dd>
-								<dt>Price:</dt>
-								<dd>&pound;21.25</dd>
-							</dl>
-							
-							<div class="rating">
-								<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			
-			<div class="clearfix"><a class="btn btn-primary btn-large pull-right" href="rec.html">Show Recommendations</a></div>
-			
-			
-            <hr>
-			
-            <footer>
-                <p>&copy; Company 2012</p>
-            </footer>
+  <%= form_tag wines_path, :method => 'post' do %>
+    <div class="hero-unit">
+      <h4>Choose your wine</h4>
+      <h5>Choose color</h5>
+      <ul class="color-choice ul-horizontal unstyled">
+        <li>
+        <label class="radio">
+          <%= radio_button_tag("search_criteria[color]", "red", is_color_selected("red"), :onclick => "switch_to_body()") %>
+          Red 
+        </label>
+        </li>
+        <li>
+        <label class="radio">
+          <%= radio_button_tag("search_criteria[color]", "rose", is_color_selected("rose"), :onclick => "switch_to_sweetness()") %>
+          Rose 
+        </label>
+        </li>
+        <li>
+        <label class="radio">
+          <%= radio_button_tag("search_criteria[color]", "white", is_color_selected("white"), :onclick => "switch_to_sweetness()") %>
+          White 
+        </label>
+        </li>
+      </ul>
+      <h5>How do you like your wine?</h5>
+      <ul class="body-choice ul-horizontal unstyled" id="body_scales">
+        <% @body_scales.each do |key, value|%>
+          <li>
+          <label class="radio">
+            <%= check_box_tag("search_criteria[body_#{key}]", "1", false) %> 
+            <%= value %>
+          </label>
+          </li>
+        <% end %>
 
-        </div> <!-- /container -->
+      </ul>	
+      <ul class="body-choice ul-horizontal unstyled hidden" id="sweetness_scales">
+        <% @sweetness_scales.each do |key, value|%>
+          <li>
+          <label class="radio">
+            <%= check_box_tag("search_criteria[sweetness_#{key}]", "1", false) %> 
+            <%= value %>
+          </label>
+          </li>
+        <% end %>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+      </ul>	
+      <p class="clearfix"><%= submit_tag "Search", :name => nil, :class => "btn btn-primary btn-large pull-right"%></p>
+    </div>
+  <% end %>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+  <div class="results">
+    <p class="text-info">If you have already tasted the wines from the list below, kindly rate the wine so that we can show you the recommendations...</p>
+    <ul class="ul-horizontal unstyled">
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+      <% @wines.each do |wine| %>
+        <li class="row-fluid">
+        <div class="span1">
+          <%= image_tag("red-wine.jpg")%>
+        </div>
+        <div class="span11">
+          <h4><%= wine.name %></h4>
+          <p class="winebody-info"><em><%= @body_scales[wine.body] %></em></p>
+          <dl class="attributes">				
+            <dt>Color:</dt>
+            <dd><%= wine.wine_type %></dd>
+            <dt>Country:</dt>
+            <dd><%= wine.country %></dd>
+            <dt>Region:</dt>
+            <dd><%= wine.region %></dd>
+            <dt>Vintage:</dt>
+            <dd><%= wine.vintage %></dd>
+            <dt>Varietal:</dt>
+            <dd><%= wine.varietal %></dd>
+            <dt>Price:</dt>
+            <dd>&pound;<%= wine.price %></dd>
+          </dl>
+          <div class="rating">
+            <span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+          </div>
+        </div>
+        </li>
+      <% end %>
+    </ul>
+  </div>
 
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+  <div class="clearfix"><a class="btn btn-primary btn-large pull-right" href="rec.html">Show Recommendations</a></div>
+
+
+  <hr>
+
+  <footer>
+  <p>&copy; Company 2012</p>
+  </footer>
+
+</div> <!-- /container -->
+
+</body>
 </html>

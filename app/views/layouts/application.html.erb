@@ -6,6 +6,16 @@
     <head>
       <title>WineRecommendationDemo</title>
       <%= stylesheet_link_tag    "application" %>
+      <%= stylesheet_link_tag    "bootstrap.min.css" %>
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+      <%= stylesheet_link_tag    "bootstrap-responsive.min.css" %>
+      <%= stylesheet_link_tag    "main.css" %>
+      
       <%= javascript_include_tag "application" %>
       <%= csrf_meta_tags %>
         <meta charset="utf-8">
@@ -13,18 +23,6 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 60px;
-                padding-bottom: 40px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-        <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
